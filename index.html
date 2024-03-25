@@ -6,13 +6,17 @@
     html {
       border: 4px solid black; /* Menambahkan border hitam di sekitar halaman HTML */
     }
+    .container {
+      text-align: center; /* Menengahkan isi konten */
+    }
     h1, .border-kotak {
-      border: 2px solid black; /* Garis border dengan ketebalan 4px */
+      border: 2px solid black; /* Garis border dengan ketebalan 2px */
       padding: 10px;
-      text-align: center;
+      display: inline-block;
+      text-align: center; /* Menengahkan teks */
+      width: 50%; /* Menetapkan lebar */
+      margin: 20px auto; /* Memastikan posisi di tengah */
       background-color: white;
-      margin: 0 auto; /* Memastikan posisi di tengah */
-      width: 300px; /* Menetapkan lebar */
     }
     body {
       background-color: pink;
@@ -29,22 +33,24 @@
   </style>
 </head>
 <body>
+  <div class="container">
     <div class="kotak">
-        <h1>Exercise 1 PDW</h1>
+      <h1>Exercise 1 PDW</h1>
     </div>
     
     <div class="border-kotak">
-        Ini adalah kotak dengan border baru di bawah kotak utama.
+      Ini adalah kotak dengan border baru di bawah kotak utama.
     </div>
     
     <img src="Kucing1.jpg" alt="Gambar">
     
     <button onclick="showAlert()">Klik</button>
+  </div>
 
-    <script>
-      function showAlert() {
-        alert("Kucing");
-      }
-    </script>
+  <script>
+    function showAlert() {
+      alert("Kucing");
+    }
+  </script>
 </body>
 </html>
