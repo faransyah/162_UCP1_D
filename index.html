@@ -3,8 +3,12 @@
 <head>
   <title>Exercise 1</title>
   <style>
-    html {
-      border: 4px solid black; /* Menambahkan border hitam di sekitar halaman HTML */
+  
+  html {
+      border: 1px solid black; /* Menambahkan border hitam di sekitar halaman HTML */
+      width: 90%; /* Menjadikan lebar border kecil */
+      margin: 0 auto; /* Memastikan posisi di tengah */
+      padding: 10px; /* Menambahkan padding */
     }
     .container {
       text-align: center; /* Menengahkan isi konten */
@@ -14,9 +18,18 @@
       padding: 10px;
       display: inline-block;
       text-align: center; /* Menengahkan teks */
-      width: 50%; /* Menetapkan lebar */
+      width: 60%; /* Menetapkan lebar */
       margin: 20px auto; /* Memastikan posisi di tengah */
       background-color: white;
+    }
+    .border-kotak {
+      width: 60%; /* Menetapkan lebar untuk kotak "Dibawah ini adalah kucing lucu" */
+      padding: 20px; /* Menambahkan padding */
+      margin-top: 20px; /* Menambahkan jarak dari kotak judul */
+      display: flex; /* Menggunakan flexbox */
+      justify-content: center; /* Menengahkan secara horizontal */
+      align-items: center; /* Menengahkan secara vertikal */
+      height: 200px; /* Menetapkan tinggi */
     }
     body {
       background-color: pink;
@@ -34,12 +47,11 @@
 </head>
 <body>
   <div class="container">
-    <div class="kotak">
       <h1>Exercise 1 PDW</h1>
     </div>
     
     <div class="border-kotak">
-      Ini adalah kotak dengan border baru di bawah kotak utama.
+      Dibawah ini adalah kucing lucu
     </div>
     
     <img src="Kucing1.jpg" alt="Gambar">
