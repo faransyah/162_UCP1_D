@@ -3,45 +3,44 @@
 <head>
   <title>Exercise 1</title>
   <style>
-  
-  html {
-      border: 3px solid black; /* Menambahkan border hitam di sekitar halaman HTML */
-      width: 90%; /* Menjadikan lebar border kecil */
-      margin: 0 auto; /* Memastikan posisi di tengah */
-      padding: 10px; /* Menambahkan padding */
+    html {
+      border: 3px solid black;
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    body {
+      background-color: pink; /* Menambahkan background color hanya di dalam border body */
     }
     .container {
-      text-align: center; /* Menengahkan isi konten */
+      text-align: center;
     }
     h1, .border-kotak {
-      border: 2px solid black; /* Garis border dengan ketebalan 2px */
+      border: 2px solid black;
       padding: 10px;
       display: inline-block;
-      text-align: center; /* Menengahkan teks */
-      width: 60%; /* Menetapkan lebar */
-      margin: 20px auto; /* Memastikan posisi di tengah */
+      text-align: center;
+      width: 60%;
+      margin: 20px auto;
       background-color: white;
     }
     .border-kotak {
-      width: 60%; /* Menetapkan lebar untuk kotak "Dibawah ini adalah kucing lucu" */
-      padding: 20px; /* Menambahkan padding */
-      margin-top: 20px; /* Menambahkan jarak dari kotak judul */
-      display: flex; /* Menggunakan flexbox */
-      justify-content: center; /* Menengahkan secara horizontal */
-      align-items: center; /* Menengahkan secara vertikal */
-      height: 200px; /* Menetapkan tinggi */
-    }
-    body {
-      background-color: pink;
+      width: 60%;
+      padding: 20px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
     }
     img {
       display: block;
-      margin: 20px auto; /* Menambahkan ruang di atas dan bawah gambar */
-      width: 300px; /* Menetapkan lebar gambar */
+      margin: 20px auto;
+      width: 300px;
     }
     button {
       display: block;
-      margin: 20px auto; /* Menambahkan ruang di atas dan bawah tombol */
+      margin: 20px auto;
       border: 2px solid black;
       background-color: white;
       width: 5%;
@@ -51,18 +50,16 @@
 </head>
 <body>
   <div class="container">
-      <h1>Exercise 1 PDW</h1>
-    </div>
-    
-    <div class="border-kotak">
-        <p> Kucing adalah hewan peliharaan yang populer di seluruh dunia. Mereka dikenal dengan sifatnya yang lucu, lincah, dan sering kali menjadi teman setia bagi manusia. Kucing memiliki bulu yang lembut dan ekspresi wajah yang menggemaskan. Mereka juga memiliki perilaku unik seperti tidur yang nyaman di tempat yang sepi, bermain dengan mainan kecil, dan mengasah kuku mereka di tiang khusus. Kucing tidak hanya menjadi hewan peliharaan, tetapi juga menjadi bagian penting dari kehidupan manusia, memberikan kebahagiaan dan kehangatan di rumah-rumah mereka.</p>
-      </div>
-      
-    
-    <img src="Kucing1.jpg" alt="Gambar">
-    
-    <button onclick="showAlert()">Klik</button>
+    <h1>Exercise 1 PDW</h1>
   </div>
+  
+  <div class="border-kotak">
+    <p> Kucing adalah hewan peliharaan yang populer di seluruh dunia. Mereka dikenal dengan sifatnya yang lucu, lincah, dan sering kali menjadi teman setia bagi manusia. Kucing memiliki bulu yang lembut dan ekspresi wajah yang menggemaskan. Mereka juga memiliki perilaku unik seperti tidur yang nyaman di tempat yang sepi, bermain dengan mainan kecil, dan mengasah kuku mereka di tiang khusus. Kucing tidak hanya menjadi hewan peliharaan, tetapi juga menjadi bagian penting dari kehidupan manusia, memberikan kebahagiaan dan kehangatan di rumah-rumah mereka.</p>
+  </div>
+  
+  <img src="Kucing1.jpg" alt="Gambar">
+  
+  <button onclick="showAlert()">Klik</button>
 
   <script>
     function showAlert() {
